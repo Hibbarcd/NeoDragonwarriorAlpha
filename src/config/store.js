@@ -1,4 +1,4 @@
-import { createStore, combineReducers } from 'redux'
+import { createStore, combineReducers, applyMiddleware } from 'redux'
 import logger from 'redux-logger'
 
 
@@ -22,7 +22,7 @@ const middlewares = [logger]
 
 const store = createStore(
   rootReducer,
-  applyMiddleware(...middlewares),
+  // applyMiddleware(...middlewares),
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
 )
 
