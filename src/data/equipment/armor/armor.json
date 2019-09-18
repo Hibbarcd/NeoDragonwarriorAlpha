@@ -1,0 +1,58 @@
+[
+    {
+        "id":"1a",
+        "type": "Armor",
+        "name": "Cloth",
+        "image": "./placeholder.png",
+        "DP": 2,
+        "cost": 25,
+        "special": false
+    },
+    {
+        "id":"2a",
+        "type": "Armor",
+        "name": "Leather",
+        "image": "./placeholder.png",
+        "DP": 4,
+        "cost": 55,
+        "special": false
+    },
+    {
+        "id":"3a",
+        "type": "Armor",
+        "name": "Chain",
+        "image": "./placeholder.png",
+        "DP": 8,
+        "cost": 125,
+        "special": false
+    },
+    {
+        "id":"4a",
+        "type": "Helmet",
+        "name": "LeatherHood",
+        "image": "./placeholder.png",
+        "DP": 2,
+        "cost": 45,
+        "special": false
+    },
+    {
+        "id":"5a",
+        "type": "Helmet",
+        "name": "ChainHood",
+        "image": "./placeholder.png",
+        "DP": 4,
+        "cost": 95,
+        "special": false
+    },
+    {
+        "id":"5a",
+        "type": "Armor",
+        "name": "God's Armor",
+        "image": "./placeholder.png",
+        "DP": 100,
+        "cost": 0,
+        "special": true,
+        "attributes": "resist-fire"
+    }
+
+]

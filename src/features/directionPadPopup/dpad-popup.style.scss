@@ -1,0 +1,42 @@
+.d-pad-reveal {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: black;
+    z-index: 5;
+  
+    .direction-pad {
+      margin: 0 auto;
+      height: 180px;
+      width: 230px;
+      border: 3px solid white;
+      border-Radius: 12px;
+      background-Color: black;
+      color: white;
+      display: block;
+      position: fixed;
+      right: 25px;
+      top: 50%;
+      justify-content: center;
+      cursor: crosshair;
+      padding: 1%;
+  
+  .button {
+      width: 75px;
+      height: 50px;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: bold;
+      border: 2px solid black;
+  &:hover {
+      background-color: #011a1a;
+      border: 2px solid white;
+      color: wheat;
+          }
+      }
+  }
+}
+  

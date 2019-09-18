@@ -1,0 +1,40 @@
+[
+    {
+        "id":"1w",
+        "type": "",
+        "name": "LongStick",
+        "image": "./placeholder.png",
+        "AP": 2,
+        "cost": 15,
+        "special": false
+    },
+    {
+        "id":"2w",
+        "type": "",
+        "name": "Club",
+        "image": "./placeholder.png",
+        "AP": 4,
+        "cost": 75,
+        "special": false
+    },
+    {
+        "id":"3w",
+        "type": "",
+        "name": "CopperSword",
+        "image": "./placeholder.png",
+        "AP": 8,
+        "cost": 155,
+        "special": false
+    },
+    {
+        "id":"4w",
+        "type": "",
+        "name": "God's Blade",
+        "image": "./placeholder.png",
+        "AP": 100,
+        "cost": 0,
+        "special": true,
+        "attributes": "blazemore"
+    }
+
+]

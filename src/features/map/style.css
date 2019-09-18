@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+.tile {
+    margin: 0;
+    display: inline-flex;
+    background-color: #42b842;
+}
+.row {
+    height: 40px;
+}
+.black {
+    background-color: black;
+}
+.grass {
+    /* background-color: #42b842; */
+}
+.chest {
+    background-image: url('/tiles/chest.png')
+}
+.rock {
+    background-image: url('/tiles/rock.png');
+}
+.rock2 {
+    background-image: url('/tiles/rock2.png');
+}
+.tree {
+    background-image: url('/tiles/tree.png');
+}
+.tree2 {
+    background-image: url('/tiles/tree2.png');
+}
+.tree3 {
+    background-image: url('/tiles/tree3.png');
+}
+.water {
+    background-image: url('/tiles/water1.png');
+}
+.onetile_riverEW {
+    background-image: url('/tiles/onetile_riverEW.png');
+}
+.onetile_riverNS {
+    background-image: url('/tiles/onetile_riverNS.png');
+}
+.bridgeEW {
+    background-image: url('/tiles/bridgeEW.png');
+}
+.bridgeNS {
+    background-image: url('/tiles/bridgeNS.png');
+}
+.lake_EastShore {
+    background-image: url('/tiles/lake_EastShore.png');
+}
+.lake_SouthShore {
+    background-image: url('/tiles/lake_SouthShore.png');
+}
+.lake_NorthShore {
+    background-image: url('/tiles/lake_NorthShore.png');
+}
+.lake_WestShore {
+    background-image: url('/tiles/lake_WestShore.png');
+}
+.cave {
+    background-image: url('/tiles/cave.png');
+}
+.village {
+    background-image: url('/tiles/town.png');
+}
+/* .castle_bottom_left {
+    background-image: url('/tiles/castle_bottom_left.png');
+} */
+/* .castle_bottom_right {
+    background-image: url('/tiles/castle_bottom_right');
+}
+.castle_top_left {
+    background-image: ('/tiles/castle_top_left');
+}
+.castle_top_right {
+    background-image: url('tiles/castle_top_right');
+} */
