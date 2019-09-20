@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+
 import './style.css'
 
  function PartyMenu(props) {
@@ -10,10 +11,9 @@ import './style.css'
         position: 'relative',
         bottom: '42vh',            
       }}
-      ><p>Use keyboard Direction arrows to navigate the map. </p>
-      <p>Many features to be added when time permits.</p>
-          {/* <h1> Const(fight screen party stats) Menu </h1> */}
- 
+      >
+      <p>Use keyboard Direction arrows to navigate the map. </p>
+      <p>Many features to be added when time permits.</p> 
 
         </div> 
     )

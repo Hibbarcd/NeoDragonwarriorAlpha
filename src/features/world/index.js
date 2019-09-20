@@ -4,6 +4,7 @@ import PartyMenu from '../partyStatusMenu/index'
 import Player from '../player'
 import { tiles } from '../../data/maps/1'
 import store from '../../config/store'
+import GeneralInventoryMenu from '../inventory-menu/inventory-menu.component'
 import './style.css'
 
 
@@ -14,10 +15,14 @@ function World(props) {
   }})
   return (
     <div className= 'worldMap'>
-      <Map />
-      <Player />
-      <PartyMenu />
+      <div className='row-alignment'>
+        <Map />
+        {/* changing value of isActive from true to false conditionally renders styled css via prop */}
+        <GeneralInventoryMenu isActive={true} >I am a component</GeneralInventoryMenu>
       </div>
+        <Player />
+        <PartyMenu />
+    </div>
   )
 }
 

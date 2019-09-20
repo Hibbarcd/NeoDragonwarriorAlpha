@@ -1,5 +1,5 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux'
-import logger from 'redux-logger'
+import { createStore, combineReducers } from 'redux'
+// import logger from 'redux-logger'
 
 
 import playerReducer from '../config/redux/player/player.reducer'
@@ -18,7 +18,7 @@ const rootReducer = combineReducers({
   user: userReducer,
 })
 
-const middlewares = [logger]
+// const middlewares = [logger]
 
 const store = createStore(
   rootReducer,
