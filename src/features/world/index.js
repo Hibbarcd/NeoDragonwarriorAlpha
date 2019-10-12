@@ -1,6 +1,6 @@
 import React from 'react'
 import Map from '../map'
-import PartyMenu from '../partyStatusMenu/index'
+import PartyMenu from '../partyStatusMenu/partyStatusMenu.component'
 import Player from '../player'
 import { tiles } from '../../data/maps/1'
 import store from '../../config/store'

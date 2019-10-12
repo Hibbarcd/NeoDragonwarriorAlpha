@@ -11,6 +11,7 @@ import World from './features/world';
 import Header from './features/header/header.component'
 import GlobalAudio from './features/music';
 
+import CombatPage from './pages/combatPage/combatPage.component'
 
 class App extends React.Component {
 
@@ -48,6 +49,7 @@ componentWillUnmount() {
       <Header />
       <Switch>
         <Route exact path='/' component={World} />
+        <Route exact path='/combat' component={CombatPage} />
         <Route exact path='/signin' component={SignUpSignInPage}/>
       </Switch>
       </div>     

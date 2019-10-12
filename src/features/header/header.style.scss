@@ -2,9 +2,10 @@
     height: 20px;
     width: 100%;
     display: flex;
+    border: 2px solid white;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    padding-bottom: 16px;
+    padding-top: 10px;
   
     .logo-container {
       height: 100%;
@@ -28,7 +29,8 @@
       }
       button {
         border-radius: 10px;
-        width: 60px;
+        width: 70px;
+        height: 35px;
         opacity: 50%;
         border-radius: 50px;
         -webkit-transition: all .75s ease-in-out;

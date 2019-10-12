@@ -1,5 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
+
 import  DpadIcon  from '../d-padIcon/d-padIcon.component'
 import DpadPopup from '../directionPadPopup/dpad-popup.component';
 // import { ReactComponent as Logo } from '../../data/imageAssets/crownIcon.svg'
@@ -15,10 +17,19 @@ const Header = ({ hidden }) => (
             <button>USER MENU</button>
             </div>
             <div className='option-dev'>
-            <button>DEV MENU</button>
+                <Link to='/'>
+                    <button>WORLD MAP</button>
+                </Link>
             </div>
             <div className='option-misc'>
-            <button>MISC</button>
+                <Link to='/combat'>
+                    <button>COMBAT</button>
+                </Link>
+            </div>
+            <div className='option-misc'>
+                <Link to='/signin'>
+                    <button>LOGIN</button>
+                </Link>
             </div>
             <DpadIcon />
         </div>
