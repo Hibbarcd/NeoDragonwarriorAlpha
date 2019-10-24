@@ -18,8 +18,10 @@
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
+    "reselect": "^4.0.0",
     "set-value": "2.0.1",
     "styled-components": "^4.3.2"
   },

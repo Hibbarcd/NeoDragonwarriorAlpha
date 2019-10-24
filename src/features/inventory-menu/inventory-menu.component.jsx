@@ -8,10 +8,18 @@ const GeneralInventoryMenu = styled.div`
         border: 3px solid white;
         border-Radius: 12px;
         width: 18%;
-        height: 300px;
+        height: 250px;
         position: absolute;
         left: -150px;
-        top: 10%;
-
+        top: 5%;
+        font-size: .5em;
+        justify-content: space-evenly;
+     p {
+             position: relative;
+             color: black;
+     }
+        
 `
+
+
 export default GeneralInventoryMenu;

@@ -1,20 +1,19 @@
+import { EnemyActionTypes} from './enemies.types'
 
-const initialState = {
-    position: [0, 0],
-    spriteLocation: '0px 0px',
-    typeSprite: 'enemy',
-    enemyIndex: 0,
-  }
-  
-  const enemyReducer = (state=initialState, action) => {
-    switch(action.type) {
-      case 'RANDOM_ENEMY':
+const INITIAL_STATE = {
+    currentEnemy: null,
+}
+
+const enemyReducer = (state = INITIAL_STATE, action) => {
+    switch (action.type) {
+        case EnemyActionTypes.SET_CURRENT_ENEMY:
         return {
-          ...action.payload
+            ...state,
+            currentEnemy: action.payload,
         }
-      default:
-        return state
+            
+        default:
+            return state;
     }
-  }
-  
-  export default enemyReducer
+}
+export default enemyReducer

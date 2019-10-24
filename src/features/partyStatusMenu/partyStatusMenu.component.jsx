@@ -1,21 +1,41 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+
 import './style.css'
 
  function PartyMenu(props) {
-        return (
-          <div className="Party_Status_Menu"
-                style={{
-          // this style section controls the battle menu box
-        position: 'relative',
-        bottom: '42vh',            
-      }}
-      >
-      <p>Use keyboard Direction arrows to navigate the map. </p>
-      <p>Many features to be added when time permits.</p> 
-
-        </div> 
+    return (
+      <div className="Party_Status_Menu">
+        <div className='row-character'>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+        </div>
+        <div className='row-character'>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+        </div>
+        <div className='row-character'>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+        </div>
+        <div className='row-character'>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+          <div className='column-name'>TestName</div>
+        </div>
+      </div> 
     )
    }
 

@@ -1,16 +1,27 @@
 .Party_Status_Menu {
-    /* margin: 0 auto; */
-    width: 74vw;
+    width: 52vw;
+    height: 140px;
     border: 3px solid white;
     border-Radius: 12px;
     background-Color: black;
     color: white;
-    font-size: 1.5em;
-    top: 0;
+    font-size: 1.4em;
     margin-top: 50px;
     flex-direction: column;
     position: relative;
-    display: flex;
+    display: grid;
+}
+.row-character {
+    border-bottom: 2px solid white;
+    height: 35px;
+    display: inline-flex;
+}
+.column-name {
+    width: fit-content;
+    height: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 2px solid white;
 }
 
 

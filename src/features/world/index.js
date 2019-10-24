@@ -1,5 +1,5 @@
 import React from 'react'
-import Map from '../map'
+import Map from '../map/map.component'
 import PartyMenu from '../partyStatusMenu/partyStatusMenu.component'
 import Player from '../player'
 import { tiles } from '../../data/maps/1'
@@ -16,12 +16,15 @@ function World(props) {
   return (
     <div className= 'worldMap'>
       <div className='row-alignment'>
-        <Map />
+      <Map />
         {/* changing value of isActive from true to false conditionally renders styled css via prop */}
-        <GeneralInventoryMenu isActive={true} >I am a component</GeneralInventoryMenu>
+        <GeneralInventoryMenu isActive={true} >
+            <p>Use keyboard Direction arrows to navigate the map. </p>
+            <p>Many features to be added when time permits.</p> 
+        </GeneralInventoryMenu>
       </div>
-        <Player />
-        <PartyMenu />
+    <Player />
+    <PartyMenu />
     </div>
   )
 }

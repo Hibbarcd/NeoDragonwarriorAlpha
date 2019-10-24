@@ -1,0 +1,39 @@
+.card-container {
+    display: inline-block;
+    width: 260px;
+    height: 200px;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    position: relative;
+    margin-left: 10%;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  .image {
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    /* left: 30%; */
+  }
+
+   h1 {
+    color: blanchedalmond;
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  p {
+    color: blue;
+    position: fixed;
+    font-size: 2em;
+  } 
