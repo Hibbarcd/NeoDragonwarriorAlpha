@@ -2,7 +2,7 @@
     {
         "id": "1234e",
         "name": "slime",
-        "image": "./slime.png",
+        "image": "slime.png",
         "HP": 5,
         "MP": 0,
         "AP": 2,
@@ -16,7 +16,7 @@
     {
       "id": "5678e",
       "name": "red-slime",
-      "image": "./images/red_slime.png",
+      "image": "red_slime.png",
       "HP": 10,
       "MP": 0,
       "AP": 4,

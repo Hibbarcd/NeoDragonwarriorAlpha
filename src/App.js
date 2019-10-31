@@ -4,17 +4,16 @@ import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { setCurrentUser } from './config/redux/users/user.actions';
 
-import SignUpSignInPage from './pages/signIn-SignUp/signIn-signUp.component'
-
 import { auth, createUserProfileDocument } from './firebase/firebase.utils'
 import World from './features/world';
 import Header from './features/header/header.component'
 import GlobalAudio from './features/music';
 
 import CombatPage from './pages/combatPage/combatPage.component'
+import SignUpSignInPage from './pages/signIn-SignUp/signIn-signUp.component'
+import StartPage from './pages/startPage/startpage.component'
 
 class App extends React.Component {
-
 
   unsubscribeFromAuth = null
 
@@ -49,6 +48,7 @@ componentWillUnmount() {
       <Header />
       <Switch>
         <Route exact path='/' component={World} />
+        <Route exact path='/start' component={StartPage} />
         <Route exact path='/combat' component={CombatPage} />
         <Route exact path='/signin' component={SignUpSignInPage}/>
       </Switch>

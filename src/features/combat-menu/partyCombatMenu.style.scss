@@ -1,5 +1,4 @@
 .menu-container {
-    position: absolute;
     margin: 0 auto;
     height: 400px;
     width: 255px;
@@ -9,7 +8,9 @@
     border-Radius: 15px;
     background-Color: black;
     color: white;
-    /* visibility: 'hidden' */
+    position: absolute;
+    margin-top: 50px;
+    left: 65%;
 }
  .commandsMenu {
      font-size: 2.3em;
@@ -18,7 +19,5 @@
      cursor: pointer;
  }
 #commands {
-    padding: 0 20px 0 10px;
-    
-    
+    padding: 0 20px 0 10px;  
 }

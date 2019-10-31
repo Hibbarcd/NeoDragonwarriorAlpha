@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 import {CardList} from '../../features/combat-card-list/card-list.component'
-import enemies from '../../data/enemies/testEnemies.json'
+import enemies from '../../data/imageAssets/testEnemies.json'
 import PartyCombatMenu from '../../features/combat-menu/partyCombatMenu.component'
+import PartyMenu from '../../features/partyStatusMenu/partyStatusMenu.component'
 
 import './combatPage.style.scss'
 
@@ -56,58 +57,12 @@ class CombatPage extends Component {
           onChange={e => this.setState({ randomField: e.target.value }, () => console.log(this.state)) }/>
       <CardList monsters={randomizedMonster} />
       <PartyCombatMenu />
-
+      <PartyMenu />
       </div>
 
   )
   }
   }
-
-// class CombatPage extends React.Component {
-//     constructor() {
-//         super()
-    
-//         this.state = {
-//           monsters: [],
-//           randomField: '',
-//           showChild: true,
-//         }
-//       }
-//     componentDidMount() {
-//         // alert('Combat Begins')
-//         this.setState({monsters: enemies})
-//     }    
-//         handleChange = (e)  => {
-//             this.setState({ randomfield: e.target.value })
-//           }
-    
-
-//     render() {
-//         const { match, monsters, randomField } = this.props
-//         const randomizedMonster = monsters.filter(monster => 
-//             monster.id.includes(randomField)
-//           )
-
-//         return (
-//             <div className='combat-page'>
-//                 <Route path={`${match.path}`}
-//                     // component={} 
-//                     />
-//                     <div className='combat-container'>
-//                     Test of Text for Combat Page
-//                         <div className='party-menu-container'>
-//                             <PartyMenu />
-//                         </div>
-//                     </div>
-
-//                 {/* <Route path={`${match.path}/:playerId`} /> */}
-//             </div>
-//         )
-//     }
-// }
-// // const mapDispatchToProps = dispatch => ({
-// //     fetchCollectionsStartAsync: () => dispatch(fetchCollectionsStartAsync())
-// //   })
 
   export default connect(
       null,
