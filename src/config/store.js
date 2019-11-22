@@ -9,6 +9,8 @@ import audioReducer from '../config/redux/audio/audio.reducer'
 import dpadReducer from '../config/redux/d-pad/d-pad.reducer'
 import userReducer from './redux/users/user.reducer'
 import startUpReducer from './redux/startUp/startUp.reducer'
+import userDropdownReducer from './redux/header-dropdown/user-dropdown.reducer'
+
 
 const rootReducer = combineReducers({
   player: playerReducer,
@@ -17,7 +19,8 @@ const rootReducer = combineReducers({
   music: audioReducer,
   hidden: dpadReducer,
   user: userReducer,
-  startUpReducer,
+  hiddenStart: startUpReducer,
+  showMenu: userDropdownReducer,
 })
 
 // const middlewares = [logger]

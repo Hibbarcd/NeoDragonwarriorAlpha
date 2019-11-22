@@ -14,12 +14,25 @@
     height: 25px;
     display: inline-flex;
 }
+.column-stat {
+    height: 30px;
+    padding-right: 55px;
+    padding-left: 25px;
+}
 .column-name {
     width: fit-content;
     height: 30px;
-    padding-right: 25px;
+    padding-right: 55px;
+    padding-left: 20px;
+}
+.column-class {
+    height: 30px;
+    padding-right: 15px;
+}
+.column-hp {
+    height: 30px;
+    padding-right: 105px;
     padding-left: 25px;
-    border-right: 2px solid white;
 }
 
 

@@ -3,13 +3,14 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 var Config = {
-    apiKey: "AIzaSyDP_GdbZeK6TMhMfVAwY84k1g583r3cuA0",
-    authDomain: "clothing-db-7aa31.firebaseapp.com",
-    databaseURL: "https://clothing-db-7aa31.firebaseio.com",
-    projectId: "clothing-db-7aa31",
-    storageBucket: "clothing-db-7aa31.appspot.com",
-    messagingSenderId: "887844497061",
-    appId: "1:887844497061:web:326a21c19212164b"
+  apiKey: "AIzaSyAmXBBz_vOVhxAjwCPEOyhpGBpeuShp0OQ",
+  authDomain: "dragonslayeralpha-eb631.firebaseapp.com",
+  databaseURL: "https://dragonslayeralpha-eb631.firebaseio.com",
+  projectId: "dragonslayeralpha-eb631",
+  storageBucket: "dragonslayeralpha-eb631.appspot.com",
+  messagingSenderId: "803927438765",
+  appId: "1:803927438765:web:8c259ecacf349d0e2ddd24",
+  measurementId: "G-HVFCBJCV7D"
   };
   export const createUserProfileDocument = async (userAuth, additionalData) => {
     if (!userAuth) return;

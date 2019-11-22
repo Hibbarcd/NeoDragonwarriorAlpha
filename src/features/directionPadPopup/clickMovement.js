@@ -88,7 +88,7 @@ export default function handleClickMove(player) {
         return attemptClickMove('SOUTH')
         
         default:
-        console.log('clicked' )
+        console.log('clicked')
     }
   }
   window.addEventListener('click', (f) => {

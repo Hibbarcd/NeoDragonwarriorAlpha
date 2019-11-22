@@ -4,15 +4,22 @@ import { Link } from 'react-router-dom'
 
 import  DpadIcon  from '../d-padIcon/d-padIcon.component'
 import DpadPopup from '../directionPadPopup/dpad-popup.component';
-// import { ReactComponent as Logo } from '../../data/imageAssets/crownIcon.svg'
+import UserMenuDropDown from '../userMenu-Dropdown/user-dropdown.component'
+import { toggleUserDropdown } from '../../config/redux/header-dropdown/user-dropdown.actions'
+
 import './header.style.scss'
 
 
-const Header = ({ hidden }) => (
+const Header = ({ hidden, showMenu }) => (
     <div className='header'>
         <div className= 'options'>
             <div className='option-user'>
-            <button>USER MENU</button>
+            <button onClick={toggleUserDropdown}>
+                USER MENU
+            </button>
+                <div className='drop-down-user'>
+                    { showMenu ? <UserMenuDropDown /> : null }
+                </div>
             </div>
             <div className='option-dev'>
                 <Link to='/'>
@@ -37,8 +44,15 @@ const Header = ({ hidden }) => (
     </div>
 )
 
-const mapStateToProps = ({ hidden:{ hidden } }) =>  ({
-    hidden
+const mapStateToProps = ({ hidden:{ hidden }, showMenu:{ showMenu }}) =>  ({
+    hidden,
+    showMenu
 })
 
-export default connect(mapStateToProps)(Header)
+const mapDispatchToProps = dispatch => ({
+    toggleUserDropdown: () => dispatch(toggleUserDropdown())
+  });
+
+export default connect(
+    mapStateToProps, 
+    mapDispatchToProps)(Header)

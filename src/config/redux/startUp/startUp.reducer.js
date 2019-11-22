@@ -1,7 +1,7 @@
 import StartUpActionTypes from './startUp.types'
 
 const INITIAL_STATE = {
-    hidden: false,
+    hiddenStart: false,
 }
 
 const startUpReducer = (state = INITIAL_STATE, action) => {
@@ -9,7 +9,7 @@ const startUpReducer = (state = INITIAL_STATE, action) => {
         case StartUpActionTypes.TOGGLE_START_IMAGE:
             return {
                 ...state,
-                hidden: state.hidden,
+                hiddenStart: state.hiddenStart,
             }
             default:
                 return state
