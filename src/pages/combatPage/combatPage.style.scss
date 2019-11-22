@@ -5,11 +5,17 @@
     height: 602px;
     margin: 0 auto;
 }
-
 .combat-page {
     background-color: black;
     color: wheat;
     align-content: center;
     padding-top: 20px;
     flex-direction: column;
+}
+
+.combat-container {
+    position: relative;
+    display: block;
+    width: 800px;
+    margin: 0 auto;
 }

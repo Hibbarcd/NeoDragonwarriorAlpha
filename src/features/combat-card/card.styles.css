@@ -1,6 +1,5 @@
 .card-container {
     display: inline-block;
-    width: 260px;
     height: 200px;
     flex-direction: column;
     background-color: black;
@@ -8,25 +7,15 @@
     border-radius: 5px;
     cursor: pointer;
     -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
     position: relative;
-    margin-left: 10%;
+    margin-left: 30%;
   }
-  
-  .card-container:hover {
-    transform: scale(1.05);
+  .image-container {
+    height: 70px;
   }
-  /* .image-container {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-  } */
-
    h1 {
     text-align: center;
+    
   }
   p {
     color: blue;

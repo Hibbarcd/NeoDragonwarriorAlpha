@@ -36,7 +36,7 @@ class CombatPage extends Component {
     )
   
     return (
-      <div className="App"
+      <div className="combat-container"
           style= {{
             backgroundColor: 'black',
           }}

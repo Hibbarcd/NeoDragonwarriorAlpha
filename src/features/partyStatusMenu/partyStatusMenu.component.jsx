@@ -29,10 +29,10 @@ import './style.css'
           <div className='column-hp'>30</div>
         </div>
         <div className='row-character'>
-          <div className='column-stat'>Class(Level)</div>
-          <div className='column-class'>Hero(Level)</div>
-          <div className='column-class'>Soldier(Level)</div>
-          <div className='column-class'>Mage(Level)</div>
+          <div className='column-stat'>Class(XX)</div>
+          <div className='column-class'>Hero(XX)</div>
+          <div className='column-class'>Soldier(XX)</div>
+          <div className='column-class'>Mage(XX)</div>
           <div className='column-class'>Priest(Level)</div>
         </div>
       </div> 
