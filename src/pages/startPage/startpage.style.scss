@@ -2,10 +2,11 @@ body {
     background-color: black;
 
     .image-container {
-        height: 600px;
+        // height: 600px;
+        height: auto;
         width: 60vw;
+        max-width: 100%;
         position: relative;
-        justify-content: center;
         left: 20%;
     }
 

@@ -72,7 +72,24 @@ function MapTile(props) {
             return 'lake_WestShore'
         case 164:
             return 'lake_NorthShore'
-        }
+        
+        
+//============In Town Tiles ===============================================
+        case 152:
+            return 'stonewall'
+        case 153:
+            return 'stonewall_back'
+        case 200:
+            return 'pathway'
+        case 201:
+            return 'flowers'
+        case 202:
+            return 'shrubs'
+    }
+
+
+
+
     }
 //==================================================================
    //=====================================================================================

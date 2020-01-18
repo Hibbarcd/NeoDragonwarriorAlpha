@@ -2,7 +2,8 @@ import React from 'react'
 import Map from '../map/map.component'
 import PartyMenu from '../partyStatusMenu/partyStatusMenu.component'
 import Player from '../player'
-import { tiles } from '../../data/maps/1'
+//import { tiles } from '../../data/maps/1' // this is actual world map
+import { tiles } from '../../data/maps/Test_Town' // this is test town map
 import store from '../../config/store'
 import GeneralInventoryMenu from '../inventory-menu/inventory-menu.component'
 import './style.css'

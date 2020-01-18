@@ -8,6 +8,7 @@
     position: relative;
     display: grid;
     margin-top: 70px;
+    max-width: 100%; 
 }
 .row-character {
     border-bottom: 2px solid white;

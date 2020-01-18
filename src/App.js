@@ -15,27 +15,28 @@ import StartPage from './pages/startPage/startpage.component'
 
 class App extends React.Component {
 
-  unsubscribeFromAuth = null
+  // unsubscribeFromAuth = null
+
 
 componentDidMount() {
-  const {setCurrentUser} = this.props
+  // const {setCurrentUser} = this.props
 
-  this.unsubscribeFromAuth = auth.onAuthStateChanged( async userAuth => {
-    if (userAuth) {
-      const userRef = await createUserProfileDocument(userAuth)
-      userRef.onSnapshot(snapShot => {
+  // this.unsubscribeFromAuth = auth.onAuthStateChanged( async userAuth => {
+  //   if (userAuth) {
+  //     const userRef = await createUserProfileDocument(userAuth)
+  //     userRef.onSnapshot(snapShot => {
 
-        setCurrentUser ({
-            id: snapShot.id,
-            ...snapShot.data()
-        })
-      })
-    }
+  //       setCurrentUser ({
+  //           id: snapShot.id,
+  //           ...snapShot.data()
+  //       })
+  //     })
+  //   }
 
-    setCurrentUser({userAuth})
-    createUserProfileDocument(userAuth)
-    console.log(userAuth)
-  })
+  //   setCurrentUser({userAuth})
+  //   createUserProfileDocument(userAuth)
+  //   console.log(userAuth)
+  // })
   }
 componentWillUnmount() {
   this.unsubscribeFromAuth()

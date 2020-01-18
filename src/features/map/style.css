@@ -66,6 +66,22 @@ body {
 .village {
     background-image: url('/tiles/town.png');
 }
+/*=============================village tiles below========================================*/
+.pathway {
+    background-image: url('/tiles/inside_town/walkway_town.png');
+}
+.stonewall {
+    background-image: url('/tiles/inside_town/wall_town.png');
+}
+.stonewall_back {
+    background-image: url('/tiles/inside_town/wallBack_town.png');
+}
+.shrubs {
+    background-image: url('/tiles/inside_town/shrubs_town.png');
+}
+.flowers {
+    background-image: url('/tiles/inside_town/flowers.png');
+}
 /* .castle_bottom_left {
     background-image: url('/tiles/castle_bottom_left.png');
 } */

@@ -46,7 +46,7 @@ export default function handleMovement(player) {
     const y = newPos[1] / SPRITE_SIZE
     const x = newPos[0] / SPRITE_SIZE
     const nextTile = tiles[y][x]
-    return nextTile <= 149 
+    return (nextTile <= 149) || (nextTile>= 199)
   }
 
   function dispatchMove(direction, newPos) {
