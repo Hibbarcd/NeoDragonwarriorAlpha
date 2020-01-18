@@ -15,6 +15,9 @@ body {
 .grass {
     /* background-color: #42b842; */
 }
+.sand {
+    background-image: url('/tiles/inside_town/sand.png');
+}
 .chest {
     background-image: url('/tiles/chest.png')
 }
@@ -76,11 +79,23 @@ body {
 .stonewall_back {
     background-image: url('/tiles/inside_town/wallBack_town.png');
 }
+.inn_sign {
+    background-image: url('/tiles/inside_town/innSign.png');
+}
 .shrubs {
     background-image: url('/tiles/inside_town/shrubs_town.png');
 }
 .flowers {
     background-image: url('/tiles/inside_town/flowers.png');
+}
+.merchant_stall_hor_south {
+    background-image: url('/tiles/inside_town/merchantTable_town.png');
+}
+.merchant_stall_vert_west {
+    background-image: url('/tiles/inside_town/merchantTable2_town.png');
+}
+.merchant_stall_vert_east {
+    background-image: url('/tiles/inside_town/merchantTable3_town.png');
 }
 /* .castle_bottom_left {
     background-image: url('/tiles/castle_bottom_left.png');

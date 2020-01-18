@@ -26,6 +26,8 @@ function MapTile(props) {
             return 'tree2'
         case 104:
             return 'tree3'
+        case 105:
+            return 'sand'
         case 107:
             return 'bridgeEW'
         case 106:
@@ -79,6 +81,14 @@ function MapTile(props) {
             return 'stonewall'
         case 153:
             return 'stonewall_back'
+        case 155:
+            return 'inn_sign'
+        case 170:
+            return 'merchant_stall_hor_south'
+        case 171:
+            return 'merchant_stall_vert_west'
+        case 172:
+            return 'merchant_stall_vert_east'
         case 200:
             return 'pathway'
         case 201:
