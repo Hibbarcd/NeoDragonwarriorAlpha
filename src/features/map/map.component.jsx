@@ -60,6 +60,8 @@ function MapTile(props) {
             return 'rock'
         case 151:
             return 'rock2'
+        case 168:
+            return 'locked_door'
         case 180: 
             return 'onetile_riverNS'
         case 181: 
@@ -83,6 +85,8 @@ function MapTile(props) {
             return 'stonewall_back'
         case 155:
             return 'inn_sign'
+        case 156:
+            return 'armory_sign'
         case 170:
             return 'merchant_stall_hor_south'
         case 171:
@@ -95,6 +99,10 @@ function MapTile(props) {
             return 'flowers'
         case 202:
             return 'shrubs'
+        case 205:
+            return 'stairs'
+        case 206:
+            return 'stairsDown'
     }
 
 

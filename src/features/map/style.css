@@ -79,8 +79,20 @@ body {
 .stonewall_back {
     background-image: url('/tiles/inside_town/wallBack_town.png');
 }
+.locked_door {
+    background-image: url('/tiles/inside_town/lockedDoor.png');
+}
+.stairs {
+    background-image: url('/tiles/inside_town/stairs.png');
+}
+.stairsDown {
+    background-image: url('/tiles/inside_town/stairsDown.png');
+}
 .inn_sign {
     background-image: url('/tiles/inside_town/innSign.png');
+}
+.armory_sign {
+    background-image: url('/tiles/inside_town/WeaponsArmorSign.png');
 }
 .shrubs {
     background-image: url('/tiles/inside_town/shrubs_town.png');
