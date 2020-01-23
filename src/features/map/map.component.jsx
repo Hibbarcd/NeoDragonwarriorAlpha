@@ -62,6 +62,8 @@ function MapTile(props) {
             return 'rock2'
         case 168:
             return 'locked_door'
+        case 169: 
+            return 'well'
         case 180: 
             return 'onetile_riverNS'
         case 181: 
@@ -76,6 +78,10 @@ function MapTile(props) {
             return 'lake_WestShore'
         case 164:
             return 'lake_NorthShore'
+        case 195:
+            return 'village_tree'
+        case 196:
+            return 'grass_posts'
         
         
 //============In Town Tiles ===============================================
@@ -99,6 +105,10 @@ function MapTile(props) {
             return 'flowers'
         case 202:
             return 'shrubs'
+        case 203:
+            return 'village_grass'
+        case 204:
+            return 'grave'
         case 205:
             return 'stairs'
         case 206:

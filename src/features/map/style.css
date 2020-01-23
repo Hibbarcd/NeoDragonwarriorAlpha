@@ -73,11 +73,20 @@ body {
 .pathway {
     background-image: url('/tiles/inside_town/walkway_town.png');
 }
+.village_grass {
+    background-image: url('/tiles/inside_town/townGrass.png');
+}
 .stonewall {
     background-image: url('/tiles/inside_town/wall_town.png');
 }
 .stonewall_back {
     background-image: url('/tiles/inside_town/wallBack_town.png');
+}
+.village_tree {
+    background-image: url('/tiles/inside_town/tree_hedge.png');
+}
+.grass_posts {
+    background-image: url('/tiles/inside_town/townGrass_posts.png');
 }
 .locked_door {
     background-image: url('/tiles/inside_town/lockedDoor.png');
@@ -94,11 +103,17 @@ body {
 .armory_sign {
     background-image: url('/tiles/inside_town/WeaponsArmorSign.png');
 }
+.well {
+    background-image: url('/tiles/inside_town/well.png');
+}
 .shrubs {
     background-image: url('/tiles/inside_town/shrubs_town.png');
 }
 .flowers {
     background-image: url('/tiles/inside_town/flowers.png');
+}
+.grave {
+    background-image: url('/tiles/inside_town/grave.png');
 }
 .merchant_stall_hor_south {
     background-image: url('/tiles/inside_town/merchantTable_town.png');
