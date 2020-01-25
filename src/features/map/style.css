@@ -12,11 +12,11 @@ body {
 .black {
     background-color: black;
 }
-.grass {
-    /* background-color: #42b842; */
-}
 .sand {
     background-image: url('/tiles/inside_town/sand.png');
+}
+.hills {
+    background-image: url('/tiles/hills.png');
 }
 .chest {
     background-image: url('/tiles/chest.png')
@@ -123,6 +123,25 @@ body {
 }
 .merchant_stall_vert_east {
     background-image: url('/tiles/inside_town/merchantTable3_town.png');
+}
+/*-------------------------------------------------------------------------------*/
+.dungeon_floor {
+    background-image: url('/tiles/inside_cave/cave_floor.png');
+}
+.dungeon_wall {
+    background-image: url('/tiles/inside_cave/cave_wall.png');
+}
+.dungeon_wall2 {
+    background-image: url('/tiles/inside_cave/cave_wall2.png');
+}
+.dungeon_water {
+    background-image: url('/tiles/inside_cave/cave_water.png');
+}
+.dungeon_bridge {
+    background-image: url('/tiles/inside_cave/cave_bridge.png');
+}
+.dungeon_torch {
+    background-image: url('/tiles/inside_cave/cave_torch.png');
 }
 /* .castle_bottom_left {
     background-image: url('/tiles/castle_bottom_left.png');

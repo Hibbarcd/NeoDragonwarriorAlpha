@@ -28,9 +28,11 @@ function MapTile(props) {
             return 'tree3'
         case 105:
             return 'sand'
+        case 106:
+            return 'hills'
         case 107:
             return 'bridgeEW'
-        case 106:
+        case 108:
             return 'bridgeNS'
 //=======================Interractive Tiles=================================
         case 109:
@@ -46,6 +48,19 @@ function MapTile(props) {
             return 'town_left'
         case 114:
             return 'town_right'
+//==========================Dungeon Tiles =========================================
+        case 115:
+            return 'dungeon_floor'
+        case 151:
+            return 'dungeon_torch'
+        case 152:
+            return 'dungeon_wall'
+        case 153:
+            return 'dungeon_wall2'
+        case 154:
+            return 'dungeon_water'
+        case 155:
+            return 'dungeon_bridge'
 //=========================Castle Tiles===============================================
         case 120:
             return 'castle_top_left'
@@ -58,8 +73,6 @@ function MapTile(props) {
 //======================Impassable Tiles===========================
         case 150:
             return 'rock'
-        case 151:
-            return 'rock2'
         case 168:
             return 'locked_door'
         case 169: 
@@ -85,11 +98,11 @@ function MapTile(props) {
         
         
 //============In Town Tiles ===============================================
-        case 152:
+        case 173:
             return 'stonewall'
-        case 153:
+        case 174:
             return 'stonewall_back'
-        case 155:
+        case 175:
             return 'inn_sign'
         case 156:
             return 'armory_sign'
