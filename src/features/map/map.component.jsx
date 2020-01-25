@@ -59,8 +59,10 @@ function MapTile(props) {
             return 'dungeon_wall2'
         case 154:
             return 'dungeon_water'
-        case 155:
+        case 135:
             return 'dungeon_bridge'
+        case 802:
+            return 'dungeon_chest'
 //=========================Castle Tiles===============================================
         case 120:
             return 'castle_top_left'
@@ -73,7 +75,7 @@ function MapTile(props) {
 //======================Impassable Tiles===========================
         case 150:
             return 'rock'
-        case 168:
+        case 851:
             return 'locked_door'
         case 169: 
             return 'well'
@@ -122,10 +124,24 @@ function MapTile(props) {
             return 'village_grass'
         case 204:
             return 'grave'
-        case 205:
+        case 805:
             return 'stairs'
-        case 206:
+        case 806:
             return 'stairsDown'
+        case 807:
+            return 'caveStairsUp'
+//==========Damaging Tiles==============================================================
+        case 901:
+            return 'damage_floor'
+        case 902:
+            return 'poison_swamp'
+//========================================================================
+/* 
+800/850-interractive tiles, passable
+851-899-interractive tiles, impassible
+900-damage causing tiles
+*/
+//=======================================================================
     }
 
 

@@ -143,6 +143,18 @@ body {
 .dungeon_torch {
     background-image: url('/tiles/inside_cave/cave_torch.png');
 }
+.damage_floor {
+    background-image: url('/tiles/inside_cave/cave_damage_floor.png');
+}
+.dungeon_chest {
+    background-image: url('/tiles/inside_cave/cave_chest.png');
+}
+.caveStairsUp {
+    background-image: url('/tiles/inside_cave/cave_stairs_up.png');
+}
+/* .poison_swamp {
+    background-image: url();
+} */
 /* .castle_bottom_left {
     background-image: url('/tiles/castle_bottom_left.png');
 } */
