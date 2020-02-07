@@ -124,6 +124,9 @@ body {
 .merchant_stall_vert_east {
     background-image: url('/tiles/inside_town/merchantTable3_town.png');
 }
+.healer_sign {
+    background-image: url('/tiles/inside_town/healer_alter.png');
+}
 /*-------------------------------------------------------------------------------*/
 .dungeon_floor {
     background-image: url('/tiles/inside_cave/cave_floor.png');
@@ -152,18 +155,21 @@ body {
 .caveStairsUp {
     background-image: url('/tiles/inside_cave/cave_stairs_up.png');
 }
-/* .poison_swamp {
-    background-image: url();
-} */
-/* .castle_bottom_left {
-    background-image: url('/tiles/castle_bottom_left.png');
-} */
-/* .castle_bottom_right {
-    background-image: url('/tiles/castle_bottom_right');
+.poison_swamp {
+    background-image: url('/tiles/poisonSwamp.png');
+}
+.poison_mountains {
+    background-image: url('/tiles/poisonSwampMountains.png');
+}
+.castle_bottom_left {
+    background-image: url('/tiles/castle_SW.png');
+} 
+.castle_bottom_right {
+    background-image: url('/tiles/castle_SE.png');
 }
 .castle_top_left {
-    background-image: ('/tiles/castle_top_left');
+    background-image: url('/tiles/castle_NW.png');
 }
 .castle_top_right {
-    background-image: url('tiles/castle_top_right');
-} */
+    background-image: url('/tiles/castle_NE.png');
+}

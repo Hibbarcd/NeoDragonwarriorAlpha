@@ -77,6 +77,8 @@ function MapTile(props) {
             return 'rock'
         case 851:
             return 'locked_door'
+        case 860:
+            return 'poison_mountains'
         case 169: 
             return 'well'
         case 180: 
@@ -108,6 +110,8 @@ function MapTile(props) {
             return 'inn_sign'
         case 156:
             return 'armory_sign'
+        case 157:
+            return 'healer_sign'
         case 170:
             return 'merchant_stall_hor_south'
         case 171:
