@@ -2,6 +2,7 @@ import React from 'react'
 import Map from '../map/map.component'
 import PartyMenu from '../partyStatusMenu/partyStatusMenu.component'
 import Player from '../player'
+import Npc from '../npc/npc.component'
 import { tiles } from '../../data/maps/1' // this is actual world map
 //import { tiles } from '../../data/maps/Test_Town' // this is test town map
 //import { tiles } from '../../data/maps/Test_dungeon'
@@ -27,6 +28,7 @@ function World(props) {
         </GeneralInventoryMenu>
       </div>
     <Player />
+    <Npc />
     <PartyMenu />
     </div>
   )
