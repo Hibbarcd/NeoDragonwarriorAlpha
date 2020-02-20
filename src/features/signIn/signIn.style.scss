@@ -6,8 +6,10 @@
     .title {
         margin: 10px 0;
     }
-    .buttons {
+    .button {
         display: flex;
+        margin-top: 20px;
+        border-radius: 15px;
         justify-content: space-between;
     }
 }

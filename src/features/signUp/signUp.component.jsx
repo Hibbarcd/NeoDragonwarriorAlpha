@@ -83,7 +83,7 @@ class SignUp extends React.Component {
             label= 'email'
             required
         />
-        <button type='submit'>SIGN UP</button>
+        <button type='submit' className="button" >SIGN UP</button>
         </form>
 
         </div>

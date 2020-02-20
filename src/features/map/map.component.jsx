@@ -44,10 +44,10 @@ function MapTile(props) {
 //==========================Town Tiles ===================================
         case 112:
             return 'village'
-        case 113:
-            return 'town_left'
-        case 114:
-            return 'town_right'
+        // case 113:
+        //     return 'town_left'
+        // case 114:
+        //     return 'town_right'
 //==========================Dungeon Tiles =========================================
         case 115:
             return 'dungeon_floor'
