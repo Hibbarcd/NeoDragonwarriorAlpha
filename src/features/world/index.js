@@ -3,8 +3,8 @@ import Map from '../map/map.component'
 import PartyMenu from '../partyStatusMenu/partyStatusMenu.component'
 import Player from '../player'
 import Npc from '../npc/npc.component'
-//import { tiles } from '../../data/maps/StartWorldArea' // this is actual world map
-import { tiles } from '../../data/maps/TestWorldArea'
+import { tiles } from '../../data/maps/StartWorldArea' // this is actual world map
+//import { tiles } from '../../data/maps/TestWorldArea'
 //import { tiles } from '../../data/maps/Test_Town' // this is test town map
 //import { tiles } from '../../data/maps/Test_dungeon'
 //import { tiles } from '../../data/maps/Test_Castle'

@@ -14,7 +14,7 @@ class Enemy_Directory extends React.Component {
                 {
                     id: '1234e',
                     name: 'slime',
-                    image: './slime.png',
+                    image: 'slime.png',
                     HP: 5,
                     MP: 0,
                     AP: 2,
@@ -28,7 +28,7 @@ class Enemy_Directory extends React.Component {
                 {
                   id: '5678e',
                   name: 'red-slime',
-                  image: '../../data/imageAssets/red_slime.png',
+                  image: 'red_slime.png',
                   HP: 10,
                   MP: 0,
                   AP: 4,

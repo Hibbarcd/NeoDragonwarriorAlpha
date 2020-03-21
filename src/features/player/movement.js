@@ -3,6 +3,7 @@ import { SPRITE_SIZE, MAP_WIDTH, MAP_HEIGHT } from '../../config/constants'
 
 export default function handleMovement(player) {
 
+  
   function getNewPosition(oldPos, direction) {
     // eslint-disable-next-line
     switch(direction) {
@@ -37,8 +38,8 @@ export default function handleMovement(player) {
   }
 
   function observeBoundaries(newPos) {
-    return (newPos[0] >= 0 && newPos[0] <= MAP_WIDTH - SPRITE_SIZE) &&
-           (newPos[1] >= 0 && newPos[1] <= MAP_HEIGHT - SPRITE_SIZE)
+    return ( newPos[0] >= 0 && newPos[0] <= MAP_WIDTH - SPRITE_SIZE ) &&
+           ( newPos[1] >= 0 && newPos[1] <= MAP_HEIGHT - SPRITE_SIZE )
   }
 
   function observeImpassable(oldPos, newPos) {
@@ -46,7 +47,7 @@ export default function handleMovement(player) {
     const y = newPos[1] / SPRITE_SIZE
     const x = newPos[0] / SPRITE_SIZE
     const nextTile = tiles[y][x]
-    return (nextTile <= 149) || (nextTile>= 199)
+    return (nextTile <= 149) || (nextTile>= 199)  
   }
 
   function dispatchMove(direction, newPos) {
@@ -66,19 +67,22 @@ export default function handleMovement(player) {
     const oldPos = store.getState().player.position
     const newPos = getNewPosition(oldPos, direction)
 
-    if(observeBoundaries(newPos) && observeImpassable(oldPos, newPos))
+    if(observeBoundaries(newPos) && observeImpassable(oldPos, newPos) )
       dispatchMove(direction, newPos)
+    else 
+    {  
+      const edgeOfTheWorld = true;    
+      console.log("You are at the edge of the world")
+      return edgeOfTheWorld
+      //store state of this bool in the store for global use later
+    }
   }
+  
   //===================USE COMMANDS==========================================================================
   function attemptUse(oldPos) {
     if (oldPos )
       return alert("Opened Chest") 
   }
-
-//  function assignBlackTile(){
-//     const oldTile = store.getState().map.tiles
-//     console.log(MapTile);
-//  } 
 
   // function beginBattle(oldPos) {
   //   if (BattleMenuDisplay)

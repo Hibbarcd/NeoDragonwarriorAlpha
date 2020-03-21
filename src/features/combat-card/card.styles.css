@@ -2,7 +2,6 @@
     display: inline-block;
     height: 200px;
     flex-direction: column;
-    background-color: black;
     border: 1px solid grey;
     border-radius: 5px;
     cursor: pointer;
@@ -10,15 +9,15 @@
     position: relative;
     margin-left: 30%;
   }
-  .image-container {
-    height: 70px;
-  }
    h1 {
-    text-align: center;
-    
+    text-align: center;    
   }
   p {
     color: blue;
     position: fixed;
     font-size: 2em;
+  }
+  .img {
+    height: 150px;
+    width: 150px
   } 
