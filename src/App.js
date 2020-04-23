@@ -6,9 +6,11 @@ import { setCurrentUser } from './config/redux/users/user.actions';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils'
 import World from './features/world';
+
 import Header from './features/header/header.component'
 import GlobalAudio from './features/music';
 
+import Town from './pages/enterTown/enterTown.component'
 import CombatPage from './pages/combatPage/combatPage.component'
 import SignUpSignInPage from './pages/signIn-SignUp/signIn-signUp.component'
 import StartPage from './pages/startPage/startpage.component'
@@ -52,6 +54,7 @@ componentWillUnmount() {
         <Route exact path='/start' component={StartPage} />
         <Route exact path='/combat' component={CombatPage} />
         <Route exact path='/signin' component={SignUpSignInPage}/>
+        <Route exact path='/town' component={Town} />
       </Switch>
       </div>     
     );    
