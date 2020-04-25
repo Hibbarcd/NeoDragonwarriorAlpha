@@ -1,4 +1,5 @@
 import store from '../../config/store'
+import { Link } from 'react-router-dom'
 import { SPRITE_SIZE, MAP_WIDTH, MAP_HEIGHT } from '../../config/constants'
 
 export default function handleMovement(player) {
@@ -47,6 +48,7 @@ export default function handleMovement(player) {
     const y = newPos[1] / SPRITE_SIZE
     const x = newPos[0] / SPRITE_SIZE
     const nextTile = tiles[y][x]
+    newTileFunctions(nextTile)
     return (nextTile <= 149) || (nextTile>= 199)  
   }
 
@@ -70,20 +72,25 @@ export default function handleMovement(player) {
     if(observeBoundaries(newPos) && observeImpassable(oldPos, newPos) )
       dispatchMove(direction, newPos)
     else 
-    {  
-      const edgeOfTheWorld = true;    
-      console.log("You are at the edge of the world")
-      return edgeOfTheWorld
-      //store state of this bool in the store for global use later
-    }
+      {  
+        const edgeOfTheWorld = true;    
+        console.log("You cannot proceed!")
+        return edgeOfTheWorld
+        //store state of this bool in the store for global use later
+      }
   }
-  
   //===================USE COMMANDS==========================================================================
   function attemptUse(oldPos) {
     if (oldPos )
       return alert("Opened Chest") 
   }
-
+  function newTileFunctions(nextTile) {
+    if (nextTile === 112)
+    console.log("Town sighted, enter?")
+      
+    if (nextTile === 109)
+    console.log("You found a chest!")
+  }
   // function beginBattle(oldPos) {
   //   if (BattleMenuDisplay)
   //     return alert("beginning battle")

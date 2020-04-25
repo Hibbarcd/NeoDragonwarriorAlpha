@@ -27,3 +27,4 @@ function mapStateToProps(state) {
   }
 }
 export default connect(mapStateToProps)(handleMovement(Player))
+// to change player start location/positio, use player.reducer coordinates
