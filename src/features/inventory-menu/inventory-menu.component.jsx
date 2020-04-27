@@ -1,25 +1,41 @@
-// import React from 'react'
-import styled from 'styled-components'
-
-// alternate method of using CSS within a component via javascript styled-components library
-//unique classname automatically added to this div upon creation, prevents css style bleed thru
-const GeneralInventoryMenu = styled.div`
-     ${({isActive}) => isActive ? 'background-color:red;' : 'background-color:white;'}
-        border: 3px solid white;
-        border-Radius: 12px;
-        width: 18%;
-        height: 250px;
-        position: absolute;
-        left: -150px;
-        top: 5%;
-        font-size: .5em;
-        justify-content: space-evenly;
-     p {
-             position: relative;
-             color: black;
-     }
+import React from 'react';
+import store from '../../config/store'
+import { connect } from 'react-redux'
+import './inventory-menu.style.scss'
+import CustomButton from '../combat-button/customButton.component'
         
-`
+class GeneralInventoryMenu extends React.Component {
+  constructor(props) {
+      super(props)
+
+      this.state = {
+             playerTurn : true,
+      }
+  }
+  render() {
+
+  return (         
+    <div className='menu-container'>
+      <div className="commandsMenu">
+        <div id='commands'>
+        <CustomButton id="fight">
+          WEAPONS
+        </CustomButton>
+        <CustomButton id="spell">            
+          ARMOR
+        </CustomButton>
+        <CustomButton id="parry">
+          EQUIP
+        </CustomButton>
+        <CustomButton id="run">
+          ITEMS
+        </CustomButton>              
+      </div>
+    </div> 
+    </div>
+    )
+  }
+}
 
 
 export default GeneralInventoryMenu;

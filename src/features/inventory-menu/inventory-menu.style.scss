@@ -1,0 +1,21 @@
+.menu-container {
+    margin: 0 auto;
+    height: 290px;
+    width: 210px;
+    top: 2vw;
+    border: 4px solid white;
+    border-Radius: 15px;
+    background-Color: black;
+    color: white;
+    position: fixed;
+    margin-top: 50px;
+}
+ .commandsMenu {
+     font-size: 2.3em;
+     padding-top: 10px;
+     padding-left: 20px;
+     cursor: pointer;
+ }
+#commands {
+    padding: 0 20px 0 10px;  
+}
