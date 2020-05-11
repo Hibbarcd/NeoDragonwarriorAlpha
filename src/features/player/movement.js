@@ -1,6 +1,6 @@
 import store from '../../config/store'
-import { Link } from 'react-router-dom'
-import { SPRITE_SIZE, MAP_WIDTH, MAP_HEIGHT } from '../../config/constants'
+import {BrowserRouter as Redirect} from 'react-router-dom';
+  import { SPRITE_SIZE, MAP_WIDTH, MAP_HEIGHT } from '../../config/constants'
 
 export default function handleMovement(player) {
 
@@ -85,11 +85,28 @@ export default function handleMovement(player) {
       return alert("Opened Chest") 
   }
   function newTileFunctions(nextTile) {
-    if (nextTile === 112)
-    console.log("Town sighted, enter?")
-      
-    if (nextTile === 109)
-    console.log("You found a chest!")
+    if (nextTile === 109) 
+      console.log("You found a chest!")
+    
+    if (nextTile === 112) 
+    transitionToTown();
+
+    if (nextTile === 205) 
+    transitionToWorld();
+
+    if (nextTile === 110) 
+    transitionToCave();    
+  }
+
+  function transitionToTown() {
+    window.location = "/town";
+  }
+
+  function transitionToWorld() {
+    window.location = "/"
+  }
+  function transitionToCave() {
+    window.location = "/cave";
   }
   // function beginBattle(oldPos) {
   //   if (BattleMenuDisplay)

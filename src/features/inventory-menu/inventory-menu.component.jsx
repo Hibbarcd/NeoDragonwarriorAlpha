@@ -19,16 +19,19 @@ class GeneralInventoryMenu extends React.Component {
       <div className="commandsMenu">
         <div id='commands'>
         <CustomButton id="fight">
-          WEAPONS
+          FIGHT
         </CustomButton>
         <CustomButton id="spell">            
-          ARMOR
+          SPELL
         </CustomButton>
         <CustomButton id="parry">
-          EQUIP
+          PARRY
         </CustomButton>
         <CustomButton id="run">
-          ITEMS
+          RUN
+        </CustomButton> 
+        <CustomButton id="items">
+          ITEM
         </CustomButton>              
       </div>
     </div> 

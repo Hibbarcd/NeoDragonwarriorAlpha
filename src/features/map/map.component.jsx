@@ -128,6 +128,8 @@ function MapTile(props) {
             return 'village_grass'
         case 204:
             return 'grave'
+        case 205:
+            return 'exit_town'
         case 805:
             return 'stairs'
         case 806:

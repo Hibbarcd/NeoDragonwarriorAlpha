@@ -1,13 +1,14 @@
 .menu-container {
     margin: 0 auto;
     height: 290px;
-    width: 210px;
+    width: 170px;
     top: 2vw;
+    left: -5px;
     border: 4px solid white;
     border-Radius: 15px;
     background-Color: black;
     color: white;
-    position: fixed;
+    position: absolute;
     margin-top: 50px;
 }
  .commandsMenu {

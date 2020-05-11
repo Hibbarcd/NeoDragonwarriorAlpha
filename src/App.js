@@ -11,6 +11,7 @@ import Header from './features/header/header.component'
 import GlobalAudio from './features/music';
 
 import Town from './pages/enterTown/enterTown.component'
+import Cave from './pages/cave1/cave1.component'
 import CombatPage from './pages/combatPage/combatPage.component'
 import SignUpSignInPage from './pages/signIn-SignUp/signIn-signUp.component'
 import StartPage from './pages/startPage/startpage.component'
@@ -55,6 +56,7 @@ componentWillUnmount() {
         <Route exact path='/combat' component={CombatPage} />
         <Route exact path='/signin' component={SignUpSignInPage}/>
         <Route exact path='/town' component={Town} />
+        <Route exact path='/cave' component={Cave} />
       </Switch>
       </div>     
     );    

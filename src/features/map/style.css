@@ -73,6 +73,9 @@ body {
 .pathway {
     background-image: url('/tiles/inside_town/walkway_town.png');
 }
+.exit_town {
+    background-image: url('/tiles/inside_town/exittown.png');
+}
 .village_grass {
     background-image: url('/tiles/inside_town/townGrass.png');
 }
