@@ -95,10 +95,24 @@ function MapTile(props) {
             return 'lake_WestShore'
         case 164:
             return 'lake_NorthShore'
+        case 189:
+            return 'townShrubWall_EW-South'
+        case 190:
+            return 'townShrubWall_NS-East'
+        case 191:
+            return 'townShrubWall_NS-West'
+        case 192:
+            return 'townBorderNS_west'
+        case 193:
+            return 'townBorderNS'
+        case 194:
+            return 'townBorder'
         case 195:
             return 'village_tree'
         case 196:
             return 'grass_posts'
+        case 197:
+            return 'sandWall'
         
         
 //============In Town Tiles ===============================================

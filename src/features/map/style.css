@@ -128,7 +128,28 @@ body {
     background-image: url('/tiles/inside_town/merchantTable3_town.png');
 }
 .healer_sign {
-    background-image: url('/tiles/inside_town/healer_alter.png');
+    background-image: url('/tiles/inside_town/healer_alter.png')
+}
+.townBorder {
+    background-image: url('/tiles/inside_town/townBorder.png');
+}
+.townBorderNS {
+    background-image: url('/tiles/inside_town/townBorderNS.png');
+}
+.townBorderNS_west {
+    background-image: url('/tiles/inside_town/townBorderNS_west.png');
+}
+.townShrubWall_NS-West {
+    background-image: url('/tiles/inside_town/townShrubWall_NS-West.png');
+}
+.townShrubWall_NS-East {
+    background-image: url('/tiles/inside_town/townShrubWall_NS-East.png');
+}
+.townShrubWall_EW-South {
+    background-image: url('/tiles/inside_town/townShrubWall_EW-South.png');
+}
+.sandWall {
+    background-image: url('/tiles/inside_town/sandWall.png');
 }
 /*-------------------------------------------------------------------------------*/
 .dungeon_floor {
