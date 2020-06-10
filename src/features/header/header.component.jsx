@@ -32,8 +32,8 @@ const Header = ({ hidden, showMenu }) => (
                 </Link>
             </div>
             <div className='option-misc'>
-                <Link to='/town'>
-                    <button className = "enterTown" label='town'>Town</button>
+                <Link to='/charGen'>
+                    <button className = "charGen" label='charGen'>CharGen</button>
                 </Link>
             </div>
             <div className='option-misc'>
