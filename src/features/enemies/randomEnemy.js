@@ -70,7 +70,7 @@ export default function handleEnemy(enemy) {
       case 51:
         return displayEnemyTest('MOLEMAN')
 
-      case 51:
+      case 52:
         return displayEnemyTest('EARMOUSE')
 
       default:

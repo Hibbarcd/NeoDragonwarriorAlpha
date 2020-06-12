@@ -7,7 +7,10 @@ import {Card} from '../combat-card/card.component'
     <div className='card-list'> 
 
         {props.monsters.map(monster => 
-        <Card key={ monster.id} monster={monster} />
+        <Card key={ monster.id} monster={monster} />,
+        )} 
+        {props.monsters.map(monster => 
+        <Card key={ monster.id} monster={monster} />,
         )} 
     </div>
  )

@@ -41,21 +41,21 @@ class CombatPage extends Component {
             backgroundColor: 'black',
           }}
       >
-      <button                
+      {/* <button                
             onClick={() =>  
                     this.setState(state => ({
                       randomField: Math.floor(Math.random() * 8 + 1),
                     }))
                   }>
         random number
-      </button>
+      </button> 
   
         <input 
-          type='search' 
-          placeholder="search monsters"
+          //type='search' 
+          //placeholder="search monsters"
           // code below logs value of input from keyboard and console.logs it, but it has to be set as the 2nd parameter of the setState function because it is async.
-          onChange={e => this.setState({ randomField: e.target.value }, () => console.log(this.state)) }/>
-      <CardList monsters={randomizedMonster} />
+          // onChange={e => this.setState({ randomField: e.target.value }, () => console.log(this.state)) }/>*/ }
+                <CardList monsters={randomizedMonster} /> 
       <PartyCombatMenu />
       <PartyMenu />
       </div>

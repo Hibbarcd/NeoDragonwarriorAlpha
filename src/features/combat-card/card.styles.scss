@@ -1,0 +1,54 @@
+.card-container {
+    display: inline-block;
+    height: 200px;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    margin-left: 20px; 
+    
+    &:hover {
+      color: black;
+      border: 1px solid white;
+    }
+  }
+
+   h2 {
+      text-align: center;
+      position: relative;
+      top: -14%;
+      font-size: 1.3em;
+      padding-top: 0px;
+      width: 175px;
+      border: none;
+      color: white;
+      margin: 0 auto; 
+  } 
+  h3 {
+    text-align: center;
+    position: relative;
+    top: 75%;
+    font-size: 1em;
+    padding-top: 0px;
+    width: 175px;
+    border: none;
+    color: white;
+    margin: 0 auto;
+  }   
+  p {
+    color: blue;
+    position: fixed;
+    font-size: 2em;
+  }
+  .enemy_img {
+    border: 2px solid red;
+    height: 120px;
+    width: 120px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    top: 5px;
+    right:5px;
+  }
+ 
