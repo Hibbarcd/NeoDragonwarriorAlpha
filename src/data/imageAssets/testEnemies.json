@@ -12,19 +12,5 @@
         "spells": false,
         "retreat-index": 20,
         "treasuer-drop-index": 1  
-    },  
-    {
-      "id": "5678e",
-      "name": "red-slime",
-      "image": "red_slime.png",
-      "HP": 10,
-      "MP": 0,
-      "AP": 4,
-      "DP": 3,
-      "exp": 4,
-      "gp": 7,
-      "spells": false,
-      "retreat-index": 10,
-      "treasuer-drop-index": 1  
-  }
+    }  
 ]

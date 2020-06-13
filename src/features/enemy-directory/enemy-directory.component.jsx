@@ -45,11 +45,11 @@ class Enemy_Directory extends React.Component {
     render() {
         return (
             <div className='enemy-menu'>
-                {
+                {/* {
                 this.state.sections.map(({ id, ...sectionProps}) => (
                     <Card key={id} {...sectionProps}/>
                 ))
-                }
+                } */}
             </div>
 
         )
