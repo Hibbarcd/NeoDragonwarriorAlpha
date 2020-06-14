@@ -7,7 +7,7 @@
         "MP": 0,
         "AP": 2,
         "DP": 2,
-        "exp": 2,
+        "exp": 2, 
         "gp": 5,
         "spells": false,
         "retreat-index": 20,

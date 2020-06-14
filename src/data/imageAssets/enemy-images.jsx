@@ -1,6 +1,7 @@
+
 const enemy_images = [
-    { id: 1, src: './red_slime.png', title: 'slime' },
-  { id: 2, src: './slime.png', title: 'red-slime' },
+  { id: 1, src: './slime.png', title: 'slime' },
+    { id: 2, src: './red_slime.png', title: 'red_slime' },
 ]
 
 function imageLoader() {
